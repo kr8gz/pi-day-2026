@@ -1,0 +1,22 @@
+gauss_legendre = (iterations: @number) {
+    let a = 1;
+    let b = 1 / $.sqrt(2);
+    let p = 1;
+    let t = 0.25;
+    
+    for _ in 1..(iterations + 1) {
+        an = a;
+        bn = b;
+        pn = p;
+        tn = t;
+        
+        a = (an + bn) / 2;
+        b = $.sqrt(an * bn);
+        t = tn - pn * (an - a) ** 2;
+        p = 2 * pn;
+    }
+    
+    return (a + b) ** 2 / (4 * t);
+}
+
+$.print(gauss_legendre(10));
