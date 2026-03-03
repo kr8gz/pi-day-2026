@@ -1,0 +1,25 @@
+PROC gauss_legendre = (INT iterations) REAL:
+BEGIN
+    REAL a := 1;
+    REAL b := 1 / sqrt(2);
+    REAL p := 1;
+    REAL t := 0.25;
+
+    FOR i FROM 1 TO iterations DO
+        REAL an := a;
+        REAL bn := b;
+        REAL pn := p;
+        REAL tn := t;
+
+        a := (an + bn) / 2;
+        b := sqrt(an * bn);
+        t := tn - pn * (an - a) ** 2;
+        p := 2 * pn
+    OD;
+
+    (a + b) ** 2 / (4 * t)
+END;
+
+BEGIN
+    print((gauss_legendre(10)))
+END
