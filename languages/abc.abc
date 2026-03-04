@@ -1,0 +1,20 @@
+HOW TO RETURN gauss.legendre iterations:
+    PUT 1.0 IN a
+    PUT 1.0 / (2.0**0.5) IN b
+    PUT 1.0 IN p
+    PUT 0.25 IN t
+    PUT 1 IN i
+    WHILE i <= iterations:
+        PUT a IN an
+        PUT b IN bn
+        PUT p IN pn
+        PUT t IN tn
+        PUT (an + bn) / 2 IN a
+        PUT (an * bn)**0.5 IN b
+        PUT tn - pn * (an - a)**2 IN t
+        PUT 2 * pn IN p
+        PUT i + 1 IN i
+    RETURN (a + b)**2 / (4 * t)
+
+PUT gauss.legendre 10 IN pi
+WRITE pi /

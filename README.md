@@ -2,14 +2,18 @@
 This project implements the [Gauss-Legendre algorithm](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_algorithm) in 314 programming languages to celebrate 2026 π day
 
 ## Languages
-Currently **55/314** (17.5%) languages are implemented:
+Currently **65/314** (20.7%) languages are implemented:
 
 | Language | File |
 |----------|------|
+| ABC | `abc.abc` |
 | ActionScript | `actionscript.as` |
 | Ada | `ada.adb` |
-| Algol 68 | `algol68.a68` |
+| Agda | `agda.agda` |
+| ALGOL 68 | `algol68.a68` |
 | Assembly | `assembly.asm` |
+| AWK | `awk.awk` |
+| Ballerina | `ballerina.bal` |
 | BASIC (FreeBASIC) | `basic.bas` |
 | C | `c.c` |
 | Clojure | `clojure.clj` |
@@ -24,12 +28,15 @@ Currently **55/314** (17.5%) languages are implemented:
 | Eiffel | `eiffel.e` |
 | Elixir | `elixir.exs` |
 | Erlang | `erlang.erl` |
+| Euphoria | `euphoria.e` |
 | F# | `f-sharp.fs` |
 | Fortran 95 | `fortran.f95` |
 | Golang | `golang.go` |
 | Groovy | `groovy.groovy` |
 | Haskell | `haskell.hs` |
 | Haxe | `haxe.hx` |
+| Icon | `icon.icn` |
+| Io | `io.io` |
 | Java | `java.java` |
 | JavaScript | `javascript.js` |
 | JScript | `jscript.js` |
@@ -45,6 +52,7 @@ Currently **55/314** (17.5%) languages are implemented:
 | PascalABC.NET | `pascalabc-net.pas` |
 | Perl | `perl.pl` |
 | PHP | `php.php` |
+| PowerShell | `powershell.ps1` |
 | Prolog | `prolog.pro` |
 | Python | `python.py` |
 | R | `r.r` |
@@ -52,11 +60,13 @@ Currently **55/314** (17.5%) languages are implemented:
 | Ruby | `ruby.rb` |
 | Rust | `rust.rs` |
 | Scala | `scala.scala` |
+| Scratch | `scratch.sb3` |
 | SPWN | `spwn.spwn` |
 | Swift | `swift.swift` |
 | Tcl | `tcl.tcl` |
 | TypeScript | `typescript.ts` |
 | V | `v.v` |
+| Vala | `vala.vala` |
 | VBScript | `vbscript.vbs` |
 | Visual Basic for Applications | `visual-basic-for-applications.vba` |
 | Visual Basic | `visual-basic.vb` |

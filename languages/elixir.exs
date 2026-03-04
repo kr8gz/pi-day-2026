@@ -1,5 +1,5 @@
 defmodule Pi do
-    def pi(0, _iteartions) do 
+    def pi(0, _iterations) do 
         {1.0, 1.0 / :math.sqrt(2.0), 0.25, 1.0}
     end
     def pi(i, iterations) do
