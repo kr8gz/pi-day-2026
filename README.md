@@ -2,7 +2,7 @@
 This project implements the [Gauss-Legendre algorithm](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_algorithm) in 314 programming languages to celebrate 2026 π day
 
 ## Languages
-Currently **65/314** (20.7%) languages are implemented:
+Currently **75/314** (23.9%) languages are implemented:
 
 | Language | File |
 |----------|------|
@@ -12,6 +12,9 @@ Currently **65/314** (20.7%) languages are implemented:
 | Agda | `agda.agda` |
 | ALGOL 68 | `algol68.a68` |
 | Assembly | `assembly.asm` |
+| AssemblyScript | `assemblyscript.ts` |
+| AutoHotkey v1.1 | `autohotkey-v1.ahk` |
+| AutoHotkey v2 | `autohotkey-v2.ahk` | 
 | AWK | `awk.awk` |
 | Ballerina | `ballerina.bal` |
 | BASIC (FreeBASIC) | `basic.bas` |
@@ -27,10 +30,12 @@ Currently **65/314** (20.7%) languages are implemented:
 | Dart | `dart.dart` |
 | Eiffel | `eiffel.e` |
 | Elixir | `elixir.exs` |
+| Elm | `elm.elm` |
 | Erlang | `erlang.erl` |
 | Euphoria | `euphoria.e` |
 | F# | `f-sharp.fs` |
 | Fortran 95 | `fortran.f95` |
+| GDScript | `gdscript.gd` |
 | Golang | `golang.go` |
 | Groovy | `groovy.groovy` |
 | Haskell | `haskell.hs` |
@@ -41,7 +46,8 @@ Currently **65/314** (20.7%) languages are implemented:
 | JavaScript | `javascript.js` |
 | JScript | `jscript.js` |
 | Julia | `julia.jl` |
-| Kotlin | `kotlin.ktm` |
+| Kotlin Script | `kotlin-script.kts` |
+| Kotlin | `kotlin.kt` |
 | Lua | `lua.lua` |
 | Luau | `luau.luau` |
 | Nim | `nim.nim` |
@@ -54,14 +60,18 @@ Currently **65/314** (20.7%) languages are implemented:
 | PHP | `php.php` |
 | PowerShell | `powershell.ps1` |
 | Prolog | `prolog.pro` |
+| PureScript | `purescript.purs` |
 | Python | `python.py` |
 | R | `r.r` |
 | Racket | `racket.rkt` |
+| Reason | `reason.re` |
+| ReScript | `rescript.res` |
 | Ruby | `ruby.rb` |
 | Rust | `rust.rs` |
 | Scala | `scala.scala` |
 | Scratch | `scratch.sb3` |
 | SPWN | `spwn.spwn` |
+| Squirrel | `squirrel.nut` |
 | Swift | `swift.swift` |
 | Tcl | `tcl.tcl` |
 | TypeScript | `typescript.ts` |
