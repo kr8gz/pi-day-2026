@@ -2,7 +2,7 @@
 This project implements the [Gauss-Legendre algorithm](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_algorithm) in 314 programming languages to celebrate 2026 π day
 
 ## Languages
-Currently **75/314** (23.9%) languages are implemented:
+Currently **82/314** (26.1%) languages are implemented:
 
 | Language | File |
 |----------|------|
@@ -16,9 +16,13 @@ Currently **75/314** (23.9%) languages are implemented:
 | AutoHotkey v1.1 | `autohotkey-v1.ahk` |
 | AutoHotkey v2 | `autohotkey-v2.ahk` | 
 | AWK | `awk.awk` |
+| B | `b.b` |
 | Ballerina | `ballerina.bal` |
 | BASIC (FreeBASIC) | `basic.bas` |
+| BeanShell | `beanshell.bsh` |
+| Boo | `boo.boo` |
 | C | `c.c` |
+| Caboose | `caboose.cb` |
 | Clojure | `clojure.clj` |
 | COBOL | `cobol.cbl` |
 | CoffeeScript | `coffeescript.coffee` |
@@ -36,7 +40,9 @@ Currently **75/314** (23.9%) languages are implemented:
 | F# | `f-sharp.fs` |
 | Fortran 95 | `fortran.f95` |
 | GDScript | `gdscript.gd` |
+| Gleam | `gleam.gleam` |
 | Golang | `golang.go` |
+| Grain | `grain.gr` |
 | Groovy | `groovy.groovy` |
 | Haskell | `haskell.hs` |
 | Haxe | `haxe.hx` |
@@ -54,6 +60,7 @@ Currently **75/314** (23.9%) languages are implemented:
 | Objective-C | `objective-c.m` |
 | Objective-C++ | `objective-cpp.mm` |
 | OCaml | `ocaml.ml` |
+| Odin | `odin.odin` |
 | Pascal | `pascal.pas` |
 | PascalABC.NET | `pascalabc-net.pas` |
 | Perl | `perl.pl` |

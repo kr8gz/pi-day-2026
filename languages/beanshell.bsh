@@ -1,0 +1,19 @@
+Float gaussLegendre(int iterations) {
+    a = 1f;
+    b = 1f / Math.sqrt(2f);
+    p = 1f;
+    t = 0.25f;
+
+    for (int i = 0; i < iterations; i++) {
+        an = a;
+
+        a = (a + b) / 2;
+        b = Math.sqrt(an * b);
+        t = t - p * Math.pow(an - a, 2);
+        p *= 2;
+    }
+
+    return Math.pow(a + b, 2) / (4 * t);
+}
+
+print ( gaussLegendre(10) );
