@@ -1,0 +1,23 @@
+static double gaussLegendre(int iterations) {
+    double a = 1.0;
+    double b = 1.0 / squareRoot(2.0);
+    double p = 1.0;
+    double t = 0.25;
+    double an;
+
+    int i;
+    for (i = 0; i < iterations; i++) {
+        an = a;
+
+        a = (a + b) / 2.0;
+        b = squareRoot(an * b);
+        t = t - p * power((an - a), 2);
+        p = p * 2.0;
+    }
+
+    return power((a + b), 2) / (4.0 * t);
+}
+
+static void Job_GaussLegendre(Args _args) {
+    info(strFmt("%1", gaussLegendre(10)));
+}

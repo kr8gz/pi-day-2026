@@ -1,0 +1,17 @@
+10 GOSUB 100
+20 END
+
+100 LET A = 1.0
+110 LET B = 1.0 / SQR(2.0)
+120 LET P = 1.0
+130 LET T = 0.25
+140 LET I = 10
+150 FOR N=1 TO I
+160	LET C = A
+170	A = (A + B) / 2
+180	B = SQR(C * B)
+190	T = T - P * (C - A) * (C - A)
+200 	LET P = P * 2
+210 NEXT
+220 PRINT (A + B) * (A + B) / (4 * T)
+230 RETURN

@@ -2,15 +2,18 @@
 This project implements the [Gauss-Legendre algorithm](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_algorithm) in 314 programming languages to celebrate 2026 π day
 
 ## Languages
-Currently **91/314** (29.0%) languages are implemented:
+Currently **100/314** (31.8%) languages are implemented:
 
 | Language | File |
 |----------|------|
+| ABAP | `abap.abap` |
 | ABC | `abc.abc` |
 | ActionScript | `actionscript.as` |
 | Ada | `ada.adb` |
 | Agda | `agda.agda` |
 | ALGOL 68 | `algol68.a68` |
+| AngelScript | `angelscript.as` |
+| AppleScript | `applescript.applescript` |
 | Assembly | `assembly.asm` |
 | AssemblyScript | `assemblyscript.ts` |
 | AutoHotkey v1.1 | `autohotkey-v1.ahk` |
@@ -19,6 +22,7 @@ Currently **91/314** (29.0%) languages are implemented:
 | B | `b.b` |
 | Ballerina | `ballerina.bal` |
 | BASIC (FreeBASIC) | `basic.bas` |
+| Batch | `batch.bat` |
 | BeanShell | `beanshell.bsh` |
 | Boo | `boo.boo` |
 | C | `c.c` |
@@ -59,6 +63,7 @@ Currently **91/314** (29.0%) languages are implemented:
 | Kotlin | `kotlin.kt` |
 | Lua | `lua.lua` |
 | Luau | `luau.luau` |
+| MY-BASIC | `my-basic.bas` |
 | Nemerle | `nemerle.n` |
 | Nim | `nim.nim` |
 | Objective-C | `objective-c.m` |
@@ -90,10 +95,14 @@ Currently **91/314** (29.0%) languages are implemented:
 | Swift | `swift.swift` |
 | Tcl | `tcl.tcl` |
 | TypeScript | `typescript.ts` |
+| uBASIC | `ubasic.bas` |
 | V | `v.v` |
 | Vala | `vala.vala` |
 | VBScript | `vbscript.vbs` |
 | Visual Basic for Applications | `visual-basic-for-applications.vba` |
 | Visual Basic | `visual-basic.vb` |
+| X | `x.x` |
+| X++ | `xpp.xpp` |
+| Yabasic | `yabasic.yab` |
 | Wren | `wren.wren` |
 | Zig | `zig.zig` |
