@@ -4,11 +4,11 @@ uses math;
 function gauss_legendre(iterations: integer): double;
 var
     a, b, p, t, an, bn, pn, tn: double;
-    n: integer;
+    i: integer;
 
 begin
     a := 1;
-    b := 1 / sqrt(2);
+    b := 1 / Sqrt(2);
     p := 1;
     t := 0.25;
 
@@ -20,12 +20,12 @@ begin
         tn := t;
 
         a := (an + bn) / 2;
-        b := sqrt(an * bn);
-        t := tn - pn * Power(an - a, 2);
+        b := Sqrt(an * bn);
+        t := tn - pn * Sqr(an - a);
         p := 2 * pn;
     end;
 
-    gauss_legendre := Power(a + b, 2) / (4 * t);
+    gauss_legendre := Sqr(a + b) / (4 * t);
 end;
 
 begin

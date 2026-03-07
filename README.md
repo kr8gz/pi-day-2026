@@ -2,7 +2,7 @@
 This project implements the [Gauss-Legendre algorithm](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_algorithm) in 314 programming languages to celebrate 2026 π day
 
 ## Languages
-Currently **82/314** (26.1%) languages are implemented:
+Currently **91/314** (29.0%) languages are implemented:
 
 | Language | File |
 |----------|------|
@@ -29,16 +29,18 @@ Currently **82/314** (26.1%) languages are implemented:
 | Common Lisp | `common-lisp.cl` |
 | C++ | `cpp.cpp` |
 | Crystal | `crystal.cr` |
-| C# | `csharp.cs` |
+| C# | `c-sharp.cs` |
 | D | `d.d` |
 | Dart | `dart.dart` |
+| EasyLang | `easylang.el` |
 | Eiffel | `eiffel.e` |
 | Elixir | `elixir.exs` |
 | Elm | `elm.elm` |
 | Erlang | `erlang.erl` |
-| Euphoria | `euphoria.e` |
+| Euphoria | `euphoria.exw` |
 | F# | `f-sharp.fs` |
-| Fortran 95 | `fortran.f95` |
+| Fortran 77 | `fortran-77.f` |
+| Fortran 95 | `fortran-95.f95` |
 | GDScript | `gdscript.gd` |
 | Gleam | `gleam.gleam` |
 | Golang | `golang.go` |
@@ -48,6 +50,7 @@ Currently **82/314** (26.1%) languages are implemented:
 | Haxe | `haxe.hx` |
 | Icon | `icon.icn` |
 | Io | `io.io` |
+| J | `j.j` |
 | Java | `java.java` |
 | JavaScript | `javascript.js` |
 | JScript | `jscript.js` |
@@ -56,6 +59,7 @@ Currently **82/314** (26.1%) languages are implemented:
 | Kotlin | `kotlin.kt` |
 | Lua | `lua.lua` |
 | Luau | `luau.luau` |
+| Nemerle | `nemerle.n` |
 | Nim | `nim.nim` |
 | Objective-C | `objective-c.m` |
 | Objective-C++ | `objective-cpp.mm` |
@@ -64,11 +68,14 @@ Currently **82/314** (26.1%) languages are implemented:
 | Pascal | `pascal.pas` |
 | PascalABC.NET | `pascalabc-net.pas` |
 | Perl | `perl.pl` |
+| Phix | `phix.exw` |
 | PHP | `php.php` |
+| Pluto | `pluto.pluto` |
 | PowerShell | `powershell.ps1` |
 | Prolog | `prolog.pro` |
 | PureScript | `purescript.purs` |
 | Python | `python.py` |
+| Q# | `q-sharp.qs` |
 | R | `r.r` |
 | Racket | `racket.rkt` |
 | Reason | `reason.re` |
@@ -77,6 +84,7 @@ Currently **82/314** (26.1%) languages are implemented:
 | Rust | `rust.rs` |
 | Scala | `scala.scala` |
 | Scratch | `scratch.sb3` |
+| Sidef | `sidef.sf` |
 | SPWN | `spwn.spwn` |
 | Squirrel | `squirrel.nut` |
 | Swift | `swift.swift` |
@@ -87,4 +95,5 @@ Currently **82/314** (26.1%) languages are implemented:
 | VBScript | `vbscript.vbs` |
 | Visual Basic for Applications | `visual-basic-for-applications.vba` |
 | Visual Basic | `visual-basic.vb` |
+| Wren | `wren.wren` |
 | Zig | `zig.zig` |

@@ -1,0 +1,19 @@
+local function gauss_legendre(iterations: number): number
+    local a = 1
+    local b = 1 / math.sqrt(2)
+    local p = 1
+    local t = 0.25
+
+    for i = 1, iterations, 1 do
+        local an = a
+
+        a = (a + b) / 2
+        b = math.sqrt(an * b)
+        t = t - p * (an - a) ^ 2
+        p *= 2
+    end
+
+    return (a + b) ^ 2 / (4 * t)
+end
+
+print(gauss_legendre(10))

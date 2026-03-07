@@ -1,0 +1,19 @@
+function gauss_legendre(number iterations)
+    number a = 1
+    number b = 1 / sqrt(2)
+    number p = 1
+    number t = 0.25
+
+    for i=1 to iterations do
+        an = a
+
+        a = (a + b) / 2
+        b = sqrt(an * b)
+        t = t - p * power(an - a, 2)
+        p *= 2
+    end for
+
+    return power(a + b, 2) / (4 * t)
+end function
+
+? gauss_legendre(10)

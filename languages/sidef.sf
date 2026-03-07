@@ -1,0 +1,19 @@
+func gauss_legendre(iterations) {
+    var a = 1
+    var b = sqrt(0.5)
+    var p = 1
+    var t = 0.25
+
+    for (var i = 0; i < iterations; i++) {
+        var an = a
+
+        a = (a+b / 2)
+        b = sqrt(an * b)
+        t -= p*(an - a)**2
+        p *= 2
+    }
+
+    return ((a+b)**2 / 4*t)
+}
+
+say gauss_legendre(10)

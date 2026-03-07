@@ -4,17 +4,17 @@ PROGRAM main
 
 CONTAINS
     FUNCTION gauss_legendre(iterations) result(pi)
-        IMPLICIT NONE;
+        IMPLICIT NONE
         INTEGER, INTENT(IN) :: iterations
         REAL :: pi
 
-        REAL :: a, b, p, t, an, bn, pn, tn
+        REAL :: an, bn, pn, tn
         INTEGER :: i
 
-        a = 1.0
-        b = 1.0 / sqrt(2.0)
-        p = 1.0
-        t = 0.25
+        REAL :: a = 1.0
+        REAL :: b = 1.0 / sqrt(2.0)
+        REAL :: p = 1.0
+        REAL :: t = 0.25
 
         do i = 1, iterations
             an = a

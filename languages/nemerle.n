@@ -1,0 +1,19 @@
+def GaussLegendre(iterations) {
+    mutable a = 1.0;
+    mutable b = 1.0 / System.Math.Sqrt(2.0);
+    mutable p = 1.0;
+    mutable t = 0.25;
+
+    for (mutable i = 0; i < iterations; i++) {
+        def an = a;
+
+        a = (a + b) / 2;
+        b = System.Math.Sqrt(an * b);
+        t = t - p * System.Math.Pow(an - a, 2);
+        p *= 2;
+    }
+
+    System.Math.Pow(a + b, 2) / (4 * t);
+}
+
+System.Console.WriteLine("{0}", GaussLegendre(10));
