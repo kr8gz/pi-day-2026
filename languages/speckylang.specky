@@ -1,0 +1,26 @@
+|< iterations <= 10
+
+[<] gaussLegendre
+|< a <= 1.0
+|< b <= 0.7071067811865476
+|< p <= 1.0
+|< t <= 0.25
+|< i <= §iterations
+
+[<] gaussLegendreLoop
+    |< an <= §a
+    
+    |< a + §b \ 2.0
+    |< b * §an ^ 0.5
+    |< diff_sq <= §an - §a ^ 2.0
+    |< p_diff <= §p * §diff_sq
+    |< t - §p_diff
+    |< p * 2.0
+
+    |< i - 1 ?
+[>] gaussLegendreLoop
+
+|< sum <= §a + §b
+|< pi <= §sum * §sum \ 4.0 \ §t
+
+|< pi {%}

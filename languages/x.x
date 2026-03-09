@@ -1,6 +1,6 @@
 // i did not test this at all
 
-using libc, math;
+import std, io;
 
 fn gaussLegendre(iterations: i32) -> f64 {
     let mut a = 1;
@@ -20,6 +20,7 @@ fn gaussLegendre(iterations: i32) -> f64 {
     return (an - a).square() / (4 * t);
 }
 
-fn main() void {
+fn main() -> void {
     io::println(gaussLegendre(10));
+    return;
 }

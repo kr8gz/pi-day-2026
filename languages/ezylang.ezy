@@ -1,0 +1,32 @@
+ sqrt == func([1 1] "
+    a = .[1]
+     b == (.[0] / a})
+    c === (a + b})
+     next ==== (c / 2.0})
+   ? next \= a} {
+    <- next
+   !
+    <- .(.[0] next)
+   ?
+")
+ pi === func([10 10 sqrt] "
+    ? .[0] \= 0 } {
+        <- [1.0, 0.7071067811865476, 0.25, 1.0]
+    !
+        prev = .((.[0] - 1}), .[1], .[2])
+         a1 == ((prev[0] + prev[1]}) / 2})
+        neg_a1 === -a1}
+         a_diff ==== (prev[0] + neg_a1})
+        a_diff_sq ===== (a_diff ** 2})
+         neg_p_a ====== (-(prev[3] * a_diff_sq})})
+        <- [a1, .[2]((prev[0] * prev[1]}), prev[1]), (prev[2] + neg_p_a}), (2.0 * prev[3]})]
+    ?
+")
+ gausslegendre ==== func([1 pi sqrt] "
+    pi_comp === .[1](.[0], .[0], .[2])
+     a_b = (pi_comp[0] + pi_comp[1]})
+    a_sq == (a_b ** 2.0})
+     denominator === (pi_comp[2] * 4.0})
+    <- (a_sq / denominator})
+")
+ print($gausslegendre(10 pi sqrt)})

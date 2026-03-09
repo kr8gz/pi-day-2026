@@ -1,8 +1,10 @@
 # Gauss-Legendre Pi Approximation in 314 programming languages
+[![wakatime](https://wakatime.com/badge/github/ggodpl/pi-day-2026.svg)](https://wakatime.com/badge/github/ggodpl/pi-day-2026)
+
 This project implements the [Gauss-Legendre algorithm](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_algorithm) in 314 programming languages to celebrate 2026 π day
 
 ## Languages
-Currently **100/314** (31.8%) languages are implemented:
+Currently **105/314** (33.4%) languages are implemented:
 
 | Language | File |
 |----------|------|
@@ -42,6 +44,7 @@ Currently **100/314** (31.8%) languages are implemented:
 | Elm | `elm.elm` |
 | Erlang | `erlang.erl` |
 | Euphoria | `euphoria.exw` |
+| ezylang | `ezylang.ezy` |
 | F# | `f-sharp.fs` |
 | Fortran 77 | `fortran-77.f` |
 | Fortran 95 | `fortran-95.f95` |
@@ -88,8 +91,11 @@ Currently **100/314** (31.8%) languages are implemented:
 | Ruby | `ruby.rb` |
 | Rust | `rust.rs` |
 | Scala | `scala.scala` |
+| SceneScript | `scenescript.ss` |
 | Scratch | `scratch.sb3` |
+| shitlang | `shitlang.shit` |
 | Sidef | `sidef.sf` |
+| SpeckyLang | `speckylang.specky` |
 | SPWN | `spwn.spwn` |
 | Squirrel | `squirrel.nut` |
 | Swift | `swift.swift` |

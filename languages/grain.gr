@@ -13,8 +13,7 @@ let gaussLegendre = (iterations) => {
 
         a = (a + b) / 2.0
         b = Number.sqrt(an * b)
-        // using (an - a) ** 2 here produces a worse result
-        t = t - p * (an - a) * (an - a)
+        t = t - p * ((an - a) ** 2.0)
         p *= 2.0
     }
 

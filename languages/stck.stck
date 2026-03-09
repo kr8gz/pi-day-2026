@@ -1,0 +1,76 @@
+%include "std"
+
+const SCALE 100000000 end
+const SQRT_HALF 70710678 end
+
+proc pi :: int int int int -> int int int int do
+    let a b t p do
+
+        a b add 2 div           // (a + b) / 2
+        let an do
+
+            a b mul sqrt        // sqrt(a * b)
+            let bn do
+
+                a an sub        // a - an
+                dup mul         // (a - an) * (a - an)
+                SCALE div       // rescaled
+                p mul           // p * (a - an) * (a - an)
+                t swap sub      // t - p * (a - an) * (a - an)
+                let tn do
+                    p 2 mul     // p * 2
+                    let pn do
+
+                        an bn tn pn
+                    end
+                end
+            end
+        end
+    end
+end
+
+proc gauss_legendre :: int -> int int do
+    let iterations do
+        SCALE
+        SQRT_HALF
+        SCALE 4 div
+        1
+        0
+
+        while dup iterations lt do
+            let a b t p counter do
+                a b t p
+                pi
+                counter 1 add
+            end
+        end
+
+        drop
+
+        let a b t p do
+            a b add
+            dup mul
+            4 t mul
+            div
+        end
+
+        let res do
+            res SCALE div
+            let whole do
+                whole
+                whole SCALE mul
+                res swap sub
+            end
+        end
+    end
+end
+
+proc main do
+    10 gauss_legendre
+    let whole frac do
+        whole putu
+        "." puts
+        frac putu
+        "\n" puts
+    end
+end

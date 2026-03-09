@@ -1,0 +1,26 @@
+~ gauss_legendre_step ~
+    set("an", get("a"))
+    set("a", div(add(get("a"), get("b")), 2.0))
+    set("b", sqrt(mul(get("an"), get("b"))))
+    set("t", sub(get("t"), mul(get("p"), pow(sub(get("an"), get("a")), 2.0))))
+    set("p", mul(get("p"), 2.0))
+    set("i", add(get("i"), 1))
+~~
+
+~ gauss_legendre_cond ~
+    return(less(get("i"), get("iterations")))
+~~
+
+~ gauss_legendre ~
+    set("a", 1.0)
+    set("b", div(1.0, sqrt(2.0)))
+    set("p", 1.0)
+    set("t", 0.25)
+    set("i", 0)
+
+    while(function("gauss_legendre_cond"), function("gauss_legendre_step"))
+
+    return(div(pow(add(get("a"), get("b")), 2.0), mul(get("t"), 4.0)))
+~~
+
+print(run(function("gauss_legendre", <"iterations">), <10>))
