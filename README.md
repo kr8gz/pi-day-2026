@@ -4,7 +4,7 @@
 This project implements the [Gauss-Legendre algorithm](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_algorithm) in 314 programming languages to celebrate 2026 π day
 
 ## Languages
-Currently **105/314** (33.4%) languages are implemented:
+Currently **118/314** (37.6%) languages are implemented:
 
 | Language | File |
 |----------|------|
@@ -55,6 +55,7 @@ Currently **105/314** (33.4%) languages are implemented:
 | Groovy | `groovy.groovy` |
 | Haskell | `haskell.hs` |
 | Haxe | `haxe.hx` |
+| IcedCoffeeScript | `icedcoffeescript.iced` |
 | Icon | `icon.icn` |
 | Io | `io.io` |
 | J | `j.j` |
@@ -64,9 +65,12 @@ Currently **105/314** (33.4%) languages are implemented:
 | Julia | `julia.jl` |
 | Kotlin Script | `kotlin-script.kts` |
 | Kotlin | `kotlin.kt` |
+| LiveScript | `livescript.ls` |
 | Lua | `lua.lua` |
 | Luau | `luau.luau` |
+| MoonScript | `moonscript.moon` |
 | MY-BASIC | `my-basic.bas` |
+| Nelua | `nelua.nelua` |
 | Nemerle | `nemerle.n` |
 | Nim | `nim.nim` |
 | Objective-C | `objective-c.m` |
@@ -79,15 +83,18 @@ Currently **105/314** (33.4%) languages are implemented:
 | Phix | `phix.exw` |
 | PHP | `php.php` |
 | Pluto | `pluto.pluto` |
+| Pony | `pony.pony` |
 | PowerShell | `powershell.ps1` |
 | Prolog | `prolog.pro` |
 | PureScript | `purescript.purs` |
 | Python | `python.py` |
+| Python2 | `python2.py` |
 | Q# | `q-sharp.qs` |
 | R | `r.r` |
 | Racket | `racket.rkt` |
 | Reason | `reason.re` |
 | ReScript | `rescript.res` |
+| Rocq | `rocq.v` |
 | Ruby | `ruby.rb` |
 | Rust | `rust.rs` |
 | Scala | `scala.scala` |
@@ -95,11 +102,17 @@ Currently **105/314** (33.4%) languages are implemented:
 | Scratch | `scratch.sb3` |
 | shitlang | `shitlang.shit` |
 | Sidef | `sidef.sf` |
+| Solidity | `solidity.sol` |
 | SpeckyLang | `speckylang.specky` |
 | SPWN | `spwn.spwn` |
 | Squirrel | `squirrel.nut` |
+| Standard ML | `standard-ml.sml` |
 | Swift | `swift.swift` |
 | Tcl | `tcl.tcl` |
+| TeaScript | `teascript.tea` |
+| Terra | `terra.t` |
+| ToffeeScript | `toffeescript.toffee` |
+| TypeScript type system | `typescript-types.d.ts` |
 | TypeScript | `typescript.ts` |
 | uBASIC | `ubasic.bas` |
 | V | `v.v` |

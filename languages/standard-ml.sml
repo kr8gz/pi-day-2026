@@ -1,0 +1,24 @@
+fun gauss_legendre iterations =
+let
+    val a = ref 1.0
+    val b = ref (1.0 /. sqrt 2.0)
+    val p = ref 1.0
+    val t = ref 0.25
+    val i = ref 1
+in
+    while !i <> iterations do (
+        let
+            val an = !a
+        in
+            a := (!a + !b) / 2.0;
+            b := Math.sqrt (an * !b);
+            t := !t - !p * (an - !a) * (an - !a);
+            p := 2.0 * !p;
+            i := !i + 1
+        end
+    );
+
+    (!a + !b) * (!a + !b) / (4.0 * !t)
+end
+
+val () = print (Real.toString (gauss_legendre 10) ^ "\n")
