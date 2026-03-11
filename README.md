@@ -20,7 +20,7 @@ Also, all of the code here was written by me and I don't know how to code in 157
 idk, why not?
 
 ## Languages
-Currently **118/157** (75.6%) languages are implemented:
+Currently **130/157** (82.8%) languages are implemented:
 
 | Language | File |
 |----------|------|
@@ -45,6 +45,7 @@ Currently **118/157** (75.6%) languages are implemented:
 | Boo | `boo.boo` |
 | C | `c.c` |
 | Caboose | `caboose.cb` |
+| Ceylon | `ceylon.ceylon` |
 | Clojure | `clojure.clj` |
 | COBOL | `cobol.cbl` |
 | CoffeeScript | `coffeescript.coffee` |
@@ -67,10 +68,14 @@ Currently **118/157** (75.6%) languages are implemented:
 | GDScript | `gdscript.gd` |
 | Gleam | `gleam.gleam` |
 | Golang | `golang.go` |
+| Golo | `golo.golo` |
 | Grain | `grain.gr` |
 | Groovy | `groovy.groovy` |
+| Gura | `gura.gura` |
+| Hack | `hack.hack` |
 | Haskell | `haskell.hs` |
 | Haxe | `haxe.hx` |
+| HolyC | `holyc.hc` |
 | IcedCoffeeScript | `icedcoffeescript.iced` |
 | Icon | `icon.icn` |
 | Io | `io.io` |
@@ -84,6 +89,8 @@ Currently **118/157** (75.6%) languages are implemented:
 | LiveScript | `livescript.ls` |
 | Lua | `lua.lua` |
 | Luau | `luau.luau` |
+| Mojo | `mojo.🔥` |
+| Monkey C | `monkey-c.mc` |
 | MoonScript | `moonscript.moon` |
 | MY-BASIC | `my-basic.bas` |
 | Nelua | `nelua.nelua` |
@@ -98,6 +105,7 @@ Currently **118/157** (75.6%) languages are implemented:
 | Perl | `perl.pl` |
 | Phix | `phix.exw` |
 | PHP | `php.php` |
+| Pike | `pike.pike` |
 | Pluto | `pluto.pluto` |
 | Pony | `pony.pony` |
 | PowerShell | `powershell.ps1` |
@@ -110,6 +118,7 @@ Currently **118/157** (75.6%) languages are implemented:
 | Racket | `racket.rkt` |
 | Reason | `reason.re` |
 | ReScript | `rescript.res` |
+| Ring | `ring.ring` |
 | Rocq | `rocq.v` |
 | Ruby | `ruby.rb` |
 | Rust | `rust.rs` |
@@ -123,8 +132,10 @@ Currently **118/157** (75.6%) languages are implemented:
 | SPWN | `spwn.spwn` |
 | Squirrel | `squirrel.nut` |
 | Standard ML | `standard-ml.sml` |
+| Starlark | `starlark.star` |
 | Swift | `swift.swift` |
 | Tcl | `tcl.tcl` |
+| Teal | `teal.tl` |
 | TeaScript | `teascript.tea` |
 | Terra | `terra.t` |
 | ToffeeScript | `toffeescript.toffee` |
@@ -138,6 +149,7 @@ Currently **118/157** (75.6%) languages are implemented:
 | Visual Basic | `visual-basic.vb` |
 | X | `x.x` |
 | X++ | `xpp.xpp` |
+| Xtend | `xtend.xtend` |
 | Yabasic | `yabasic.yab` |
 | Wren | `wren.wren` |
 | Zig | `zig.zig` |

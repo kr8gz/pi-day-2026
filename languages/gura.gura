@@ -1,0 +1,19 @@
+gauss_legendre(iterations:number):number = {
+    a = 1
+    b = 1 / math.sqrt(2)
+    p = 1
+    t = 0.25
+
+    repeat(iterations) {
+        an = a
+
+        a = (a + b) / 2
+        b = math.sqrt(an * b)
+        t = t - p * (an - a) ** 2
+        p = 2 * p
+    }
+
+    (a + b) ** 2 / (4 * t)
+}
+
+println(gauss_legendre(10))
