@@ -1,10 +1,25 @@
-# Gauss-Legendre Pi Approximation in 314 programming languages
+# Gauss-Legendre Algorithm for π in 157* programming languages**
 [![wakatime](https://wakatime.com/badge/github/ggodpl/pi-day-2026.svg)](https://wakatime.com/badge/github/ggodpl/pi-day-2026)
 
-This project implements the [Gauss-Legendre algorithm](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_algorithm) in 314 programming languages to celebrate 2026 π day
+[Gauss-Legendre algorithm](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_algorithm) implementation in 157 programming languages. I was originally going to go for 314 but I had way too much confidence in my abilities and only started 2 weeks before π day so I had to rescope to half that. Maybe I'll get to the full 314 next year.
+
+Each language implements a Gauss-Legendre subroutine/function/procedure/whatever it's called in the documentation, calls it and prints the result.
+If the language does not have a `sqrt` function, Newton-Raphson method is used. 
+If the langauge does not even support floats or decimals, an integer with scaling is used (scale depends on the language since different languages support different ints).
+For this project the precision that each language produces is really not that important as it's mostly just a showcase of different syntax differences, like Rosetta code but less languages, one task and lower effort.
+
+I'm not 100% sure all of these programs work. I tried to test all of them, but finding a working (and free) compiler that wasn't very complex to setup or didn't require a very specific environment was not always easy.
+
+Also, all of the code here was written by me and I don't know how to code in 157 languages, so each implementation might not be the most idiomatic and beautful thing to ever exist, and I'm sorry if I butchered the style guide of your favorite programming language.
+
+\* There are at least a few languages that are extremely similar or pretty much identical, but it's my project so I make the rules. Versions of the same language (like Python2 vs Python3 or AHK v1.1 vs AHK v2.0) are also allowed if they are not exactly the same.
+** And [TypeScript types](https://github.com/ggodpl/pi-day-2026/blob/main/languages/typescript-types.d.ts)
+
+### Why?
+idk, why not?
 
 ## Languages
-Currently **118/314** (37.6%) languages are implemented:
+Currently **118/157** (75.6%) languages are implemented:
 
 | Language | File |
 |----------|------|
