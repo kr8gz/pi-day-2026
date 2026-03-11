@@ -13,6 +13,7 @@ I'm not 100% sure all of these programs work. I tried to test all of them, but f
 Also, all of the code here was written by me and I don't know how to code in 157 languages, so each implementation might not be the most idiomatic and beautful thing to ever exist, and I'm sorry if I butchered the style guide of your favorite programming language.
 
 \* There are at least a few languages that are extremely similar or pretty much identical, but it's my project so I make the rules. Versions of the same language (like Python2 vs Python3 or AHK v1.1 vs AHK v2.0) are also allowed if they are not exactly the same.
+
 ** And [TypeScript types](https://github.com/ggodpl/pi-day-2026/blob/main/languages/typescript-types.d.ts)
 
 ### Why?
