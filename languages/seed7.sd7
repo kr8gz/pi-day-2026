@@ -1,0 +1,31 @@
+$ include "seed7_05.s7i";
+  include "float.s7i"
+
+const func float: gaussLegendre (in int: iterations) is func
+    result
+        var float: pi is 0.0;
+    local
+        var float: a is 1.0;
+        var float: b is 0.0;
+        var float: p is 1.0;
+        var float: t is 0.25;
+        var float: an is 0.0;
+    begin
+        b := 1.0 / sqrt(2.0);
+
+        for i range 1 to iterations do
+            an := a;
+
+            a := (a + b) / 2.0;
+            b := sqrt(an * b);
+            t := t - p * (an - a) * (an - a);
+            p := 2.0 * p;
+        end for;
+
+        pi := (a + b) * (a + b) / (4.0 * t);
+    end func;
+
+const proc: main is func
+    begin
+        writeln(gaussLegendre(10));
+    end func;

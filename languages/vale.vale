@@ -1,0 +1,23 @@
+import stdlib.*;
+
+func gauss_legendre(iterations int) float {
+    a = 1.0;
+    b = 1.0 / fsqrt(2.0);
+    p = 1.0;
+    t = 0.25;
+
+    foreach i in range(0, iterations) {
+        an = a;
+
+        set a = (a + b) / 2.0;
+        set b = fsqrt(an * b);
+        set t = t - p * (an - a) * (an - a);
+        set p = 2.0 * p;
+    }
+
+    return (a + b) * (a + b) / (4.0 * t);
+}
+
+exported func main() {
+    println(gauss_legendre(10) + "");
+}

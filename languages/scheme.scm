@@ -1,0 +1,18 @@
+(define (gauss-legendre iterations)
+    (let loop ((i 0)
+               (a 1.0)
+               (b (/ 1.0 (sqrt 2.0)))
+               (tt 0.25)
+               (p 1.0))
+        (if (= i iterations)
+            (/ (expt (+ a b) 2)
+               (* 4.0 tt))
+            (let ((a1 (/ (+ a b) 2.0)))
+                (loop (+ i 1)
+                    a1
+                    (sqrt (* a b))
+                    (- tt (* p (expt (- a1 a) 2)))
+                    (* 2.0 p))))))
+
+(display (gauss-legendre 10))
+(newline)

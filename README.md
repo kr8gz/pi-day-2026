@@ -17,10 +17,10 @@ Also, all of the code here was written by me and I don't know how to code in 157
 ** And [TypeScript types](https://github.com/ggodpl/pi-day-2026/blob/main/languages/typescript-types.d.ts)
 
 ### Why?
-idk, why not?
+fun
 
 ## Languages
-Currently **130/157** (82.8%) languages are implemented:
+Currently **144/157** (91.7%) languages are implemented:
 
 | Language | File |
 |----------|------|
@@ -46,6 +46,7 @@ Currently **130/157** (82.8%) languages are implemented:
 | C | `c.c` |
 | Caboose | `caboose.cb` |
 | Ceylon | `ceylon.ceylon` |
+| Chapel | `chapel.chpl` |
 | Clojure | `clojure.clj` |
 | COBOL | `cobol.cbl` |
 | CoffeeScript | `coffeescript.coffee` |
@@ -63,8 +64,10 @@ Currently **130/157** (82.8%) languages are implemented:
 | Euphoria | `euphoria.exw` |
 | ezylang | `ezylang.ezy` |
 | F# | `f-sharp.fs` |
+| Fantom | `fantom.fan` |
 | Fortran 77 | `fortran-77.f` |
 | Fortran 95 | `fortran-95.f95` |
+| Futhark | `futhark.fut` |
 | GDScript | `gdscript.gd` |
 | Gleam | `gleam.gleam` |
 | Golang | `golang.go` |
@@ -78,17 +81,20 @@ Currently **130/157** (82.8%) languages are implemented:
 | HolyC | `holyc.hc` |
 | IcedCoffeeScript | `icedcoffeescript.iced` |
 | Icon | `icon.icn` |
+| Idris | `idris.idr` |
 | Io | `io.io` |
 | J | `j.j` |
 | Java | `java.java` |
 | JavaScript | `javascript.js` |
 | JScript | `jscript.js` |
 | Julia | `julia.jl` |
+| Koka | `koka.kk` |
 | Kotlin Script | `kotlin-script.kts` |
 | Kotlin | `kotlin.kt` |
 | LiveScript | `livescript.ls` |
 | Lua | `lua.lua` |
 | Luau | `luau.luau` |
+| Maple | `maple.mpl` |
 | Mojo | `mojo.🔥` |
 | Monkey C | `monkey-c.mc` |
 | MoonScript | `moonscript.moon` |
@@ -99,6 +105,7 @@ Currently **130/157** (82.8%) languages are implemented:
 | Objective-C | `objective-c.m` |
 | Objective-C++ | `objective-cpp.mm` |
 | OCaml | `ocaml.ml` |
+| Octave | `octave.m` |
 | Odin | `odin.odin` |
 | Pascal | `pascal.pas` |
 | PascalABC.NET | `pascalabc-net.pas` |
@@ -117,6 +124,8 @@ Currently **130/157** (82.8%) languages are implemented:
 | R | `r.r` |
 | Racket | `racket.rkt` |
 | Reason | `reason.re` |
+| REBOL | `rebol.reb` |
+| Red | `red.red` |
 | ReScript | `rescript.res` |
 | Ring | `ring.ring` |
 | Rocq | `rocq.v` |
@@ -124,9 +133,13 @@ Currently **130/157** (82.8%) languages are implemented:
 | Rust | `rust.rs` |
 | Scala | `scala.scala` |
 | SceneScript | `scenescript.ss` |
+| Scheme | `scheme.scm` |
 | Scratch | `scratch.sb3` |
+| Seed7 | `seed7.sd7` |
+| Self | `self.self` |
 | shitlang | `shitlang.shit` |
 | Sidef | `sidef.sf` |
+| Smalltalk | `smalltalk.st` |
 | Solidity | `solidity.sol` |
 | SpeckyLang | `speckylang.specky` |
 | SPWN | `spwn.spwn` |
@@ -144,6 +157,7 @@ Currently **130/157** (82.8%) languages are implemented:
 | uBASIC | `ubasic.bas` |
 | V | `v.v` |
 | Vala | `vala.vala` |
+| Vale | `vale.vale` |
 | VBScript | `vbscript.vbs` |
 | Visual Basic for Applications | `visual-basic-for-applications.vba` |
 | Visual Basic | `visual-basic.vb` |
