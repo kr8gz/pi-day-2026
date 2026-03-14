@@ -1,7 +1,7 @@
 # Gauss-Legendre Algorithm for π in 157* programming languages**
 [![wakatime](https://wakatime.com/badge/github/ggodpl/pi-day-2026.svg)](https://wakatime.com/badge/github/ggodpl/pi-day-2026)
 
-[Gauss-Legendre algorithm](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_algorithm) implementation in 157 programming languages. I was originally aimed for 314 languages, but I had way too much confidence in my abilities and only started two weeks before π day, so I had to cut the goal in half.
+[Gauss-Legendre algorithm](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_algorithm) implementation in 157 programming languages. I originally aimed for 314 languages, but I had way too much confidence in my abilities and only started two weeks before π day, so I had to cut the goal in half.
 
 Each language implements a Gauss-Legendre routine (subroutine, function, procedure, or whatever it's called in the documentation), calls it and prints the result.
 If the language does not have a built-in `sqrt` function, Newton-Raphson method is used; if it does not support floating-point numbers, integers with scaling are used.
@@ -11,11 +11,11 @@ I'm not 100% sure all of these programs work. I tried to test all of them, but f
 
 Also, all of the code here was written by me and I don't know how to code in 157 languages, so each implementation might not be the most idiomatic and beautiful thing to ever exist, and I'm sorry if I butchered the style guide of your favorite programming language.
 
-\* Some langauges are extremely similar or nearly identical, but it's my project, so I make the rules. Different versions of the same language (e.g. Python2 vs Python3, or AHK v1.1 vs AHK v2.0) are allowed if they aren't exactly the same. Dialects and flavors are allowed.
+\* Some languages are extremely similar or nearly identical, but it's my project, so I make the rules. Different versions of the same language (e.g. Python2 vs Python3, or AHK v1.1 vs AHK v2.0) are allowed if they aren't exactly the same. Dialects and flavors are allowed.
 
 ** And [TypeScript types](languages/typescript-types.d.ts)
 
-### Why?
+## Why?
 fun
 
 ## Feedback
@@ -28,7 +28,8 @@ I'd love feedback if you notice errors or want to share a better, more idiomatic
 |----------|------|
 | ABAP | [`abap.abap`](languages/abap.abap) |
 | ABC | [`abc.abc`](languages/abc.abc) |
-| ActionScript | [`actionscript.as`](languages/actionscript.as) || Ada | [`ada.adb`](languages/ada.adb) |
+| ActionScript | [`actionscript.as`](languages/actionscript.as) |
+| Ada | [`ada.adb`](languages/ada.adb) |
 | Agda | [`agda.agda`](languages/agda.agda) |
 | ALGOL 68 | [`algol68.a68`](languages/algol68.a68) |
 | Alice ML | [`alice-ml.aml`](languages/alice-ml.aml) |
