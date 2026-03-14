@@ -1,5 +1,3 @@
--- what the fuck is this language
-
 open import Agda.Builtin.IO using (IO)
 import Agda.Builtin.Float as F
   renaming (primFloatPlus to _+_; primFloatMinus to _-_; primFloatTimes to _*_; primFloatDiv to _/_; primFloatSqrt to sqrt; primShowFloat to show)

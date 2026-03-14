@@ -1,5 +1,3 @@
-// i did not test this at all
-
 import std, io;
 
 fn gaussLegendre(iterations: i32) -> f64 {
