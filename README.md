@@ -1,7 +1,7 @@
 # Gauss-Legendre Algorithm for π in 157* programming languages**
 [![wakatime](https://wakatime.com/badge/github/ggodpl/pi-day-2026.svg)](https://wakatime.com/badge/github/ggodpl/pi-day-2026)
 
-[Gauss-Legendre algorithm](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_algorithm) implementation in 157 programming languages. I was originally going to go for 314 but I had way too much confidence in my abilities and only started 2 weeks before π day so I had to rescope to half that. Maybe I'll get to the full 314 next year.
+[Gauss-Legendre algorithm](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_algorithm) implementation in 157 programming languages. I was originally going to go for 314 but I had way too much confidence in my abilities and only started 2 weeks before π day so I had to rescope to half that.
 
 Each language implements a Gauss-Legendre subroutine/function/procedure/whatever it's called in the documentation, calls it and prints the result.
 If the language does not have a `sqrt` function, Newton-Raphson method is used. 
@@ -20,7 +20,7 @@ Also, all of the code here was written by me and I don't know how to code in 157
 fun
 
 ## Languages
-Currently **144/157** (91.7%) languages are implemented:
+**157/157** (100%) languages are implemented:
 
 | Language | File |
 |----------|------|
@@ -30,7 +30,9 @@ Currently **144/157** (91.7%) languages are implemented:
 | Ada | `ada.adb` |
 | Agda | `agda.agda` |
 | ALGOL 68 | `algol68.a68` |
+| Alice ML | `alice-ml.aml` |
 | AngelScript | `angelscript.as` |
+| APL | `apl.apl` |
 | AppleScript | `applescript.applescript` |
 | Assembly | `assembly.asm` |
 | AssemblyScript | `assemblyscript.ts` |
@@ -39,6 +41,7 @@ Currently **144/157** (91.7%) languages are implemented:
 | AWK | `awk.awk` |
 | B | `b.b` |
 | Ballerina | `ballerina.bal` |
+| Bash | `bash.sh` |
 | BASIC (FreeBASIC) | `basic.bas` |
 | Batch | `batch.bat` |
 | BeanShell | `beanshell.bsh` |
@@ -56,6 +59,7 @@ Currently **144/157** (91.7%) languages are implemented:
 | C# | `c-sharp.cs` |
 | D | `d.d` |
 | Dart | `dart.dart` |
+| Delphi | `delphi.dpr` |
 | EasyLang | `easylang.el` |
 | Eiffel | `eiffel.e` |
 | Elixir | `elixir.exs` |
@@ -68,6 +72,7 @@ Currently **144/157** (91.7%) languages are implemented:
 | Fortran 77 | `fortran-77.f` |
 | Fortran 95 | `fortran-95.f95` |
 | Futhark | `futhark.fut` |
+| GameMaker Language | `gamemaker-language.gml` |
 | GDScript | `gdscript.gd` |
 | Gleam | `gleam.gleam` |
 | Golang | `golang.go` |
@@ -76,9 +81,12 @@ Currently **144/157** (91.7%) languages are implemented:
 | Groovy | `groovy.groovy` |
 | Gura | `gura.gura` |
 | Hack | `hack.hack` |
+| Harbour | `harbour.hb` |
+| Hare | `hare.ha` |
 | Haskell | `haskell.hs` |
 | Haxe | `haxe.hx` |
 | HolyC | `holyc.hc` |
+| Hy | `hy.hy` |
 | IcedCoffeeScript | `icedcoffeescript.iced` |
 | Icon | `icon.icn` |
 | Idris | `idris.idr` |
@@ -95,6 +103,9 @@ Currently **144/157** (91.7%) languages are implemented:
 | Lua | `lua.lua` |
 | Luau | `luau.luau` |
 | Maple | `maple.mpl` |
+| Maxima | `maxima.mc` |
+| Mercury | `mercury.m` |
+| Modula-2 | `modula-2.m2` |
 | Mojo | `mojo.🔥` |
 | Monkey C | `monkey-c.mc` |
 | MoonScript | `moonscript.moon` |
@@ -102,6 +113,7 @@ Currently **144/157** (91.7%) languages are implemented:
 | Nelua | `nelua.nelua` |
 | Nemerle | `nemerle.n` |
 | Nim | `nim.nim` |
+| Oberon | `oberon.mod` |
 | Objective-C | `objective-c.m` |
 | Objective-C++ | `objective-cpp.mm` |
 | OCaml | `ocaml.ml` |
@@ -128,7 +140,7 @@ Currently **144/157** (91.7%) languages are implemented:
 | Red | `red.red` |
 | ReScript | `rescript.res` |
 | Ring | `ring.ring` |
-| Rocq | `rocq.v` |
+| Rocq (Coq) | `rocq.v` |
 | Ruby | `ruby.rb` |
 | Rust | `rust.rs` |
 | Scala | `scala.scala` |
@@ -161,9 +173,10 @@ Currently **144/157** (91.7%) languages are implemented:
 | VBScript | `vbscript.vbs` |
 | Visual Basic for Applications | `visual-basic-for-applications.vba` |
 | Visual Basic | `visual-basic.vb` |
+| Wolfram Language (Mathematica) | `wolfram-mathematica.wl` |
+| Wren | `wren.wren` |
 | X | `x.x` |
 | X++ | `xpp.xpp` |
 | Xtend | `xtend.xtend` |
 | Yabasic | `yabasic.yab` |
-| Wren | `wren.wren` |
 | Zig | `zig.zig` |

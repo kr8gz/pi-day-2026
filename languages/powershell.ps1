@@ -1,6 +1,6 @@
-function Invoke-Gauss-Legendre {
+function Invoke-GaussLegendre {
     param (
-        $Iterations
+        [int]$Iterations
     )
 
     $a = 1;
@@ -20,4 +20,4 @@ function Invoke-Gauss-Legendre {
     return [math]::Pow($a + $b, 2) / (4 * $t);
 }
 
-Write-Output (Invoke-Gauss-Legendre -Iterations 10)
+Write-Output (Invoke-GaussLegendre -Iterations 10)
