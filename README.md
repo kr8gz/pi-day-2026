@@ -81,6 +81,7 @@ I'd love feedback if you notice errors or want to share a better, more idiomatic
 | Golo | [`golo.golo`](languages/golo.golo) |
 | Grain | [`grain.gr`](languages/grain.gr) |
 | Groovy | [`groovy.groovy`](languages/groovy.groovy) |
+| GSC | [`gsc.gsc`](languages/gsc.gsc) |
 | Gura | [`gura.gura`](languages/gura.gura) |
 | Hack | [`hack.hack`](languages/hack.hack) |
 | Harbour | [`harbour.hb`](languages/harbour.hb) |
