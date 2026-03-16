@@ -22,7 +22,7 @@ fun
 I'd love feedback if you notice errors or want to share a better, more idiomatic version of any implementation!
 
 ## Languages
-**157/157** (100%) languages are implemented:
+**160/157** (102%) languages are implemented:
 
 | Language | File |
 |----------|------|
@@ -103,6 +103,7 @@ I'd love feedback if you notice errors or want to share a better, more idiomatic
 | Kotlin Script | [`kotlin-script.kts`](languages/kotlin-script.kts) |
 | Kotlin | [`kotlin.kt`](languages/kotlin.kt) |
 | LiveScript | [`livescript.ls`](languages/livescript.ls) |
+| LLVM IR | [`llvm.ll`](languages/llvm.ll) |
 | Lua | [`lua.lua`](languages/lua.lua) |
 | Luau | [`luau.luau`](languages/luau.luau) |
 | Maple | [`maple.mpl`](languages/maple.mpl) |
@@ -111,6 +112,7 @@ I'd love feedback if you notice errors or want to share a better, more idiomatic
 | Modula-2 | [`modula-2.m2`](languages/modula-2.m2) |
 | Mojo | [`mojo.🔥`](languages/mojo.🔥) |
 | Monkey C | [`monkey-c.mc`](languages/monkey-c.mc) |
+| MoonBit | [`moonbit.mbt`](languages/moonbit.mbt) |
 | MoonScript | [`moonscript.moon`](languages/moonscript.moon) |
 | MY-BASIC | [`my-basic.bas`](languages/my-basic.bas) |
 | Nelua | [`nelua.nelua`](languages/nelua.nelua) |
