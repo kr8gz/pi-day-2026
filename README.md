@@ -1,4 +1,4 @@
-# Gauss-Legendre Algorithm for π in 163* programming languages**
+# Gauss-Legendre Algorithm for π in 164* programming languages**
 [![wakatime](https://wakatime.com/badge/github/ggodpl/pi-day-2026.svg)](https://wakatime.com/badge/github/ggodpl/pi-day-2026)
 
 [Gauss-Legendre algorithm](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_algorithm) implementation in 157 programming languages. I originally aimed for 314 languages, but I had way too much confidence in my abilities and only started two weeks before π day, so I had to cut the goal in half.
@@ -22,7 +22,7 @@ fun
 I'd love feedback if you notice errors or want to share a better, more idiomatic version of any implementation!
 
 ## Languages
-**163/157** (104%) languages are implemented:
+**164/157** (104%) languages are implemented:
 
 | Language | File |
 |----------|------|
@@ -72,6 +72,7 @@ I'd love feedback if you notice errors or want to share a better, more idiomatic
 | ezylang | [`ezylang.ezy`](languages/ezylang.ezy) |
 | F# | [`f-sharp.fs`](languages/f-sharp.fs) |
 | Fantom | [`fantom.fan`](languages/fantom.fan) |
+| Fish | [`fish.fish`](languages/fish.fish) |
 | Fortran 77 | [`fortran-77.f`](languages/fortran-77.f) |
 | Fortran 95 | [`fortran-95.f95`](languages/fortran-95.f95) |
 | Futhark | [`futhark.fut`](languages/futhark.fut) |
