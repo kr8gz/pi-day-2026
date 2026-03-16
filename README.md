@@ -1,4 +1,4 @@
-# Gauss-Legendre Algorithm for π in 160* programming languages**
+# Gauss-Legendre Algorithm for π in 163* programming languages**
 [![wakatime](https://wakatime.com/badge/github/ggodpl/pi-day-2026.svg)](https://wakatime.com/badge/github/ggodpl/pi-day-2026)
 
 [Gauss-Legendre algorithm](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_algorithm) implementation in 157 programming languages. I originally aimed for 314 languages, but I had way too much confidence in my abilities and only started two weeks before π day, so I had to cut the goal in half.
@@ -22,7 +22,7 @@ fun
 I'd love feedback if you notice errors or want to share a better, more idiomatic version of any implementation!
 
 ## Languages
-**160/157** (102%) languages are implemented:
+**163/157** (104%) languages are implemented:
 
 | Language | File |
 |----------|------|
@@ -49,6 +49,7 @@ I'd love feedback if you notice errors or want to share a better, more idiomatic
 | BeanShell | [`beanshell.bsh`](languages/beanshell.bsh) |
 | Boo | [`boo.boo`](languages/boo.boo) |
 | C | [`c.c`](languages/c.c) |
+| C3 | [`c3.c3`](languages/c3.c3) |
 | Caboose | [`caboose.cb`](languages/caboose.cb) |
 | Ceylon | [`ceylon.ceylon`](languages/ceylon.ceylon) |
 | Chapel | [`chapel.chpl`](languages/chapel.chpl) |
@@ -93,11 +94,13 @@ I'd love feedback if you notice errors or want to share a better, more idiomatic
 | IcedCoffeeScript | [`icedcoffeescript.iced`](languages/icedcoffeescript.iced) |
 | Icon | [`icon.icn`](languages/icon.icn) |
 | Idris | [`idris.idr`](languages/idris.idr) |
+| Imhex Pattern | [`hexpat.hexpat`](languages/hexpat.hexpat) |
 | Io | [`io.io`](languages/io.io) |
 | J | [`j.j`](languages/j.j) |
 | Java | [`java.java`](languages/java.java) |
 | JavaScript | [`javascript.js`](languages/javascript.js) |
 | JScript | [`jscript.js`](languages/jscript.js) |
+| Jule | [`jule.jule`](languages/jule.jule) |
 | Julia | [`julia.jl`](languages/julia.jl) |
 | Koka | [`koka.kk`](languages/koka.kk) |
 | Kotlin Script | [`kotlin-script.kts`](languages/kotlin-script.kts) |

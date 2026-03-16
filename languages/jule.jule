@@ -1,0 +1,25 @@
+use "std/fmt"
+use "std/math"
+
+fn gaussLegendre(iterations: int): f64 {
+    let mut a: f64 = 1.0
+    let mut b: f64 = 1.0 / math::Sqrt(2.0)
+    let mut p: f64 = 1.0
+    let mut t: f64 = 0.25
+
+    let mut i = 1
+    for i <= iterations; i++ {
+        let an: f64 = a
+
+        a = (a + b) / 2.0
+        b = math::Sqrt(an * b)
+        t = t - p * math::Pow(an - a, 2.0)
+        p = 2.0 * p
+    }
+
+    ret math::Pow(a + b, 2.0) / (4.0 * t)
+}
+
+fn main() {
+    fmt::Printf("{}\n", gaussLegendre(10))
+}
