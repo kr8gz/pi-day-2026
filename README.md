@@ -1,4 +1,4 @@
-# Gauss-Legendre Algorithm for π in 164* programming languages**
+# Gauss-Legendre Algorithm for π in 167* programming languages**
 [![wakatime](https://wakatime.com/badge/github/ggodpl/pi-day-2026.svg)](https://wakatime.com/badge/github/ggodpl/pi-day-2026)
 
 [Gauss-Legendre algorithm](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_algorithm) implementation in 157 programming languages. I originally aimed for 314 languages, but I had way too much confidence in my abilities and only started two weeks before π day, so I had to cut the goal in half.
@@ -22,7 +22,7 @@ fun
 I'd love feedback if you notice errors or want to share a better, more idiomatic version of any implementation!
 
 ## Languages
-**164/157** (104%) languages are implemented:
+**167/157** (106%) languages are implemented:
 
 | Language | File |
 |----------|------|
@@ -67,6 +67,7 @@ I'd love feedback if you notice errors or want to share a better, more idiomatic
 | Eiffel | [`eiffel.e`](languages/eiffel.e) |
 | Elixir | [`elixir.exs`](languages/elixir.exs) |
 | Elm | [`elm.elm`](languages/elm.elm) |
+| Erde | [`erde.erde`](languages/erde.erde) |
 | Erlang | [`erlang.erl`](languages/erlang.erl) |
 | Euphoria | [`euphoria.exw`](languages/euphoria.exw) |
 | ezylang | [`ezylang.ezy`](languages/ezylang.ezy) |
@@ -122,6 +123,7 @@ I'd love feedback if you notice errors or want to share a better, more idiomatic
 | Nelua | [`nelua.nelua`](languages/nelua.nelua) |
 | Nemerle | [`nemerle.n`](languages/nemerle.n) |
 | Nim | [`nim.nim`](languages/nim.nim) |
+| Nushell | [`nu.nu`](languages/nu.nu) |
 | Oberon | [`oberon.mod`](languages/oberon.mod) |
 | Objective-C | [`objective-c.m`](languages/objective-c.m) |
 | Objective-C++ | [`objective-cpp.mm`](languages/objective-cpp.mm) |
@@ -182,6 +184,7 @@ I'd love feedback if you notice errors or want to share a better, more idiomatic
 | VBScript | [`vbscript.vbs`](languages/vbscript.vbs) |
 | Visual Basic for Applications | [`visual-basic-for-applications.vba`](languages/visual-basic-for-applications.vba) |
 | Visual Basic | [`visual-basic.vb`](languages/visual-basic.vb) |
+| WebAssembly Text Format | [`wasm.wat`](languages/wasm.wat) |
 | Wolfram Language (Mathematica) | [`wolfram-mathematica.wl`](languages/wolfram-mathematica.wl) |
 | Wren | [`wren.wren`](languages/wren.wren) |
 | X | [`x.x`](languages/x.x) |
